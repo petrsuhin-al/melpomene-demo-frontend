@@ -1,0 +1,86 @@
+.album-cover-container{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.album-cover{
+  margin: 10px;
+  width: 90%;
+  height: 90%;
+}
+
+.waveform-container{
+  width: 97%;
+  float: left;
+  margin: 8px 0 0 10px;
+}
+
+.button-container{
+  float: right;
+  height: 90px;
+  width: 10%;
+  position: relative;
+}
+
+.btn-playPause{
+  background: transparent no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #38495a;
+  :hover{
+    color: rgba(56, 73, 90, 0.82);
+  }
+}
+
+.title-container{
+  width: 70%;
+  float: left;
+  padding: 10px 10px 0;
+}
+
+.track-title{
+  width: 100%;
+  color: rgba(203, 203, 203, 0.99);
+  font-family: "lato", sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+
+.track-desc{
+  width: 100%;
+  color: rgba(211, 211, 211, 0.99);
+  font-family: "lato", sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+.genres-container{
+  width: 70%;
+  float: left;
+  padding: 10px 0 0 10px;
+}
+
+.genre-wrapper{
+  display: inline-block;
+  vertical-align: top;
+  height: 15px;
+  border-radius: 20px;
+  background: rgba(217, 217, 217, 0.77);
+  padding: 4px;
+  margin: 0 0 3px 4px;
+}
+
+.genre-title{
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-family: "lato", sans-serif;
+  font-size: 13px;
+  margin: 0;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MELPOMENE//DEMO</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">-->
+</head>
+<body>
+<div class="main-wrapper">
+<div class='main-title'>
+  <span>MELPOMENE//DEMO</span>
+</div>
+<div class="content-container">
+    <div class="content">
+        <div id="waveform" class="waveform-container"></div>
+        <div class="button-container">
+            <button class="btn-playPause" onclick="wavesurfer.playPause()">
+                <i class="fas fa-pause fa-2x"></i>
+            </button>
+        </div>
+        <div id="coverContainer" class="album-cover-container"></div>
+        <div class="title-container">
+            <h1 id="trackTitle" class="track-title"></h1>
+            <p id="trackDesc" class="track-desc"></p>
+        </div>
+        <div id="genresContainer" class="genres-container"></div>
+        <div class="main-button">
+            <p class="main-button_title">NEXT RANDOM TRACK</p>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/App.js"></script>
+</body>
+</html>

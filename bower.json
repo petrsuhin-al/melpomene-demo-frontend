@@ -1,0 +1,22 @@
+{
+  "name": "melpomene-demo-frontend",
+  "description": "melpomene-demo-frontend",
+  "main": "",
+  "authors": [
+    "Alexander Petrushin"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/al-vlasov/melpomene-demo-frontend",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "^3.3.1",
+    "wavesurfer.js": "1.0.24"
+  }
+}
